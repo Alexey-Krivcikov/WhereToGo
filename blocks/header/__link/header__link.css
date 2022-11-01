@@ -1,0 +1,8 @@
+.header__link {
+    margin: 0 50px 0 0;
+    text-decoration: none;
+}
+
+.header__link:nth-last-of-type(1) {
+    margin-right: 0;
+}

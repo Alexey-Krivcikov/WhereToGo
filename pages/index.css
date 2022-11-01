@@ -1,0 +1,23 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/page/page.css');
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__menu/header__menu.css');
+@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__complaint/header__complaint.css');
+
+@import url('../blocks/intro/intro.css');
+
+@import url('../blocks/places/places.css');
+
+@import url('../blocks/place/place.css');
+@import url('../blocks/place/__photo/place__photo.css');
+@import url('../blocks/place/__text/place__text.css');
+@import url('../blocks/place/__paragraph/place__paragraph.css');
+@import url('../blocks/place/__heading/place__heading.css');
+@import url('../blocks/place/__paragraphs/place__paragraphs.css');
+
+@import url('../blocks/stories/stories.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__year/footer__year.css');
