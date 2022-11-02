@@ -1,7 +1,22 @@
 .header {
-    max-width: 1184px;
-    margin: 0 auto;
-    padding-top: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px 70px 0;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 815px) {
+    .header {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
 }

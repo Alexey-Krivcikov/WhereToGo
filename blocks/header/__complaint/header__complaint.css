@@ -6,3 +6,9 @@
     font-size: 14px;
     color: black;
 }
+
+@media screen and (max-width: 535px) {
+    .header__complaint {
+        font-size: 20px;
+    }
+}

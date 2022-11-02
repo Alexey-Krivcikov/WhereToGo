@@ -10,3 +10,15 @@
 .header__link:nth-last-of-type(1) {
     margin-right: 0;
 }
+
+@media screen and (max-width: 597px) {
+    .header__link {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .header__link {
+        font-size: 20px;
+    }
+}

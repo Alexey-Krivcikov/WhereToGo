@@ -6,3 +6,15 @@
     align-items: center;
     background-color: #fecda7;
 }
+
+@media screen and (max-width: 900px) {
+    .footer {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer {
+        min-height: 300px;
+    }
+}
