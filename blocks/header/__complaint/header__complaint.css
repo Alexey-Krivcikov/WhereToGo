@@ -1,4 +1,8 @@
 .header__complaint {
     margin: 0;
     text-decoration: none;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
 }
