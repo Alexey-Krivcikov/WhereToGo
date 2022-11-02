@@ -14,6 +14,7 @@
 @import url('../blocks/text/text.css');
 @import url('../blocks/text/__title/text__title.css');
 @import url('../blocks/text/__subtitle/text__subtitle.css');
+@import url('../blocks/text/_place/text_place_stories.css');
 
 @import url('../blocks/places/places.css');
 
@@ -24,7 +25,14 @@
 @import url('../blocks/place/__heading/place__heading.css');
 @import url('../blocks/place/__paragraphs/place__paragraphs.css');
 
+/* ! block stories */
 @import url('../blocks/stories/stories.css');
+
+/* ! block table */
+@import url('../blocks/table/table.css');
+@import url('../blocks/table/__item/table__item.css');
+@import url('../blocks/table/__item-title/table__item-title.css');
+@import url('../blocks/table/__item-text/table__item-text.css');
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__year/footer__year.css');

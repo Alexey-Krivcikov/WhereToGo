@@ -1,0 +1,14 @@
+.table {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 815px) {
+  .table {
+    gap: 20px;
+  }
+}
