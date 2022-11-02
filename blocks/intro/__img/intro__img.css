@@ -1,0 +1,13 @@
+.intro__img {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  justify-self: center;
+}
+
+@media screen and (max-width: 500px) {
+  .intro__img {
+    height: 280px;
+    width: 100%;
+  }
+}

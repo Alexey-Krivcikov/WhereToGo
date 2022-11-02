@@ -1,0 +1,21 @@
+.text__subtitle {
+  color: #010101;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 815px) {
+  .text__subtitle {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .text__subtitle {
+    font-size: 26px;
+    line-height: 28px;
+  }
+}

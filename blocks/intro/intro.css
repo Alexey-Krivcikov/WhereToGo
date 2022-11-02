@@ -1,4 +1,22 @@
 .intro {
-    height: 600px;
-    border: 1px solid red;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 90px 70px 0;
+}
+
+@media screen and (max-width: 815px) {
+  .intro {
+    grid-template-columns: 1fr;
+    padding: 60px 40px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro {
+    padding: 30px 20px 0;
+    gap: 25px;
+  }
 }
