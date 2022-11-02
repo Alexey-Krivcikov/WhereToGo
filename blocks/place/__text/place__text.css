@@ -1,7 +1,6 @@
 .place__text {
     margin: 0;
     padding: 70px;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
