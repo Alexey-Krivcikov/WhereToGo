@@ -1,0 +1,15 @@
+.window__close {
+    margin: 0 auto 20px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.window__close:hover {
+    background-color: rgba(104, 95, 84, 0.8);
+}
