@@ -1,6 +1,6 @@
 .text__subtitle {
   color: #010101;
-  font-size: 40px;
+  font-size: 32px;
   line-height: 40px;
   font-weight: 700;
   margin-top: 40px;
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 500px) {
   .text__subtitle {
-    font-size: 26px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 24px;
   }
 }

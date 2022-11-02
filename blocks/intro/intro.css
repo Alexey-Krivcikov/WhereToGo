@@ -1,7 +1,7 @@
 .intro {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 50px;
+  gap: 30px;
   align-items: center;
   box-sizing: border-box;
   padding: 90px 70px 0;
@@ -17,6 +17,6 @@
 @media screen and (max-width: 500px) {
   .intro {
     padding: 30px 20px 0;
-    gap: 25px;
+    gap: 15px;
   }
 }
