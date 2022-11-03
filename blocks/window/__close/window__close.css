@@ -6,7 +6,10 @@
     color: white;
     text-decoration: none;
     border-radius: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
 }
 
 .window__close:hover {

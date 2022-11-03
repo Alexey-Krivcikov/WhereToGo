@@ -14,6 +14,9 @@
 @import url('../blocks/window/__name-tag/form__name-tag.css');
 @import url('../blocks/window/__text-tag/form__text-tag.css');
 @import url('../blocks/window/__textarea/form__textarea.css');
+@import url('../blocks/window/__reset/form__reset.css');
+@import url('../blocks/window/__submit/form__submit.css');
+@import url('../blocks/window/__handless/form__handless.css');
 
 /* form pos */
 @import url('../blocks/form-position/form-position.css');

@@ -1,5 +1,6 @@
 .form__name-tag {
-    margin: 0;
+    font-family: inherit;
+    margin: 0 auto;
     padding: 10px;
-    text-align: start;
+    text-align: center;
 }

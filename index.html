@@ -18,17 +18,19 @@
       <h2 class="window__heading">Пожаловаться можно здесь!</h2>
         <div class="form__container">
           <fieldset class="window__form">
-            <a class="form__name-tag">Введите ваше имя</a>
-            <input type="text" class="form__name form-position">
-            <a class="form__name-tag">Введите ваш email</a>
-            <input type="email" class="form__email form-position">
-            <a class="form__name-tag">Опишите жалобу</a>
-            <textarea type="text" class="form__textarea form-position"></textarea>
-            <input type="reset" class="form__reset form-position">
-            <input type="submit" class="form__submit form-position">
+            <label for="firstname" class="form__name-tag">Введите ваше имя</label>
+            <input type="text" name="firstname" placeholder="Иван" class="form__name form-position">
+            <label for="email-address" class="form__name-tag">Введите ваш email</label>
+            <input type="email" name="email-address" placeholder="ivan@yandex.ru" class="form__email form-position">
+            <label for="problem" class="form__name-tag">Опишите жалобу</label>
+            <textarea type="text" name="problem" placeholder="Мне не нравится шрифт" class="form__textarea form-position"></textarea>
+          </fieldset>
+          <fieldset class="form__handless">
+            <input type="reset" class="form__reset">
+            <input type="submit" class="form__submit">
           </fieldset>
         </div>
-      <a href="#" class="window__close">close that</a>
+      <a href="#" class="window__close">Закрыть</a>
     </form>
     <a href="#test" class="header__complaint">Пожаловаться</a>
   </header>
