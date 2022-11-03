@@ -1,21 +1,75 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="./images/favicon.png">
   <link rel="stylesheet" href="./pages/index.css">
+  <style>
+    .burger__menu {
+      display: none;
+    }
+
+    .burger__btn {
+      display: none;
+    }
+
+    @media screen and (max-width: 535px) {
+      .burger__btn {
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+        text-align: center;
+        top: 20px;
+        right: 30px;
+      }
+      .burger__btn::before {
+        content: '\2630';
+      }
+      .header__menu {
+        display: none;
+      }
+      .burger__menu:checked + .burger__btn + .header__menu{
+        display: flex;
+        animation: show .5s ease;
+      }
+      .burger__menu:checked + .burger__btn::before {
+        content: '\2716';
+      }
+
+    }
+    @keyframes show {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
   <title>Куда я поеду</title>
 </head>
+
 <body class="page">
   <header class="header">
-    <nav class="header__menu">
-      <a href="#" class="header__link">Мечты</a>
-      <a href="#" class="header__link">Ожидания</a>
-      <a href="#" class="header__link">Реальность</a>
-      <a href="#" class="header__complaint">Пожаловаться</a>
-    </nav>
+
+    <div class="burger">
+      <input class="burger__menu" type="checkbox" id="check-menu">
+      <label class="burger__btn" for="check-menu">
+      </label>
+
+      <nav class="header__menu">
+          <a href="#" class="header__link">Мечты</a>
+          <a href="#" class="header__link">Ожидания</a>
+          <a href="#" class="header__link">Реальность</a>
+          <a href="#" class="header__complaint">Пожаловаться</a>
+      </nav>
+    </div>
   </header>
 
   <section class="intro">
@@ -42,11 +96,13 @@
     </article>
     <article class="place">
       <div class="place__text">
-         <h2 class="place__heading">Поеду в&nbsp;горы</h2>
-         <div class="place__paragraphs">
-           <p class="place__paragraph">Горные системы занимают 64&nbsp;% поверхности Азии,
-            36&nbsp;%&nbsp;&mdash; Северной Америки, 25&nbsp;%&nbsp;&mdash; Европы, 22&nbsp;%&nbsp;&mdash; Южной Америки,
-            17&nbsp;%&nbsp;&mdash; Австралии и&nbsp;3&nbsp;%&nbsp;&mdash; Африки. В&nbsp;целом 24&nbsp;% земной поверхности
+        <h2 class="place__heading">Поеду в&nbsp;горы</h2>
+        <div class="place__paragraphs">
+          <p class="place__paragraph">Горные системы занимают 64&nbsp;% поверхности Азии,
+            36&nbsp;%&nbsp;&mdash; Северной Америки, 25&nbsp;%&nbsp;&mdash; Европы, 22&nbsp;%&nbsp;&mdash; Южной
+            Америки,
+            17&nbsp;%&nbsp;&mdash; Австралии и&nbsp;3&nbsp;%&nbsp;&mdash; Африки. В&nbsp;целом 24&nbsp;% земной
+            поверхности
             приходится на&nbsp;горы.&nbsp;10&nbsp;% всех людей живёт на&nbsp;территории гор.
             В&nbsp;горах берёт своё начало большинство рек Земли.</p>
         </div>
@@ -60,7 +116,8 @@
         <div class="place__paragraphs">
           <p class="place__paragraph">Я&nbsp;уплыву туда, где ни&nbsp;разу я&nbsp;не&nbsp;был, туда, где никто
             раньше не&nbsp;был. Никто и&nbsp;никогда раньше не&nbsp;был, я&nbsp;уплыву. Я&nbsp;позову тебя смотреть
-            на&nbsp;синее небо и&nbsp;пить по&nbsp;капле синее небо, и&nbsp;падать в&nbsp;это синее небо, я&nbsp;позову.</p>
+            на&nbsp;синее небо и&nbsp;пить по&nbsp;капле синее небо, и&nbsp;падать в&nbsp;это синее небо, я&nbsp;позову.
+          </p>
           <p class="place__paragraph">Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное
             море, на&nbsp;Чёрное-Чёрное море уеду&nbsp;я. Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на
             Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное море.</p>
@@ -78,19 +135,24 @@
     <ul class="table">
       <li class="table__item">
         <h4 class="table__item-title">Иван Бунин</h4>
-        <blockquote class="table__item-text" cite="https://www.goodreads.com/quotes/924052-3">Человека делают счастливым три вещи: любовь, интересная работа и&nbsp;возможность путешествовать.</blockquote>
+        <blockquote class="table__item-text" cite="https://www.goodreads.com/quotes/924052-3">Человека делают счастливым
+          три вещи: любовь, интересная работа и&nbsp;возможность путешествовать.</blockquote>
       </li>
       <li class="table__item">
         <h4 class="table__item-title">Альбер Камю</h4>
-        <blockquote class="table__item-text" cite="https://ru.wikiquote.org/wiki/%D0%90%D0%BB%D1%8C%D0%B1%D0%B5%D1%80_%D0%9A%D0%B0%D0%BC%D1%8E">Путешествие как самая великая и&nbsp;серьезная наука помогает нам вновь обрести себя.</blockquote>
+        <blockquote class="table__item-text"
+          cite="https://ru.wikiquote.org/wiki/%D0%90%D0%BB%D1%8C%D0%B1%D0%B5%D1%80_%D0%9A%D0%B0%D0%BC%D1%8E">Путешествие
+          как самая великая и&nbsp;серьезная наука помогает нам вновь обрести себя.</blockquote>
       </li>
       <li class="table__item">
         <h4 class="table__item-title">Норвежская пословица</h4>
-        <blockquote class="table__item-text" cite="https://www.ef.ru/blog/language/50-luchshih-citat/">Лишь тот, кто странствует, открывает новые пути.</blockquote>
+        <blockquote class="table__item-text" cite="https://www.ef.ru/blog/language/50-luchshih-citat/">Лишь тот, кто
+          странствует, открывает новые пути.</blockquote>
       </li>
       <li class="table__item">
         <h4 class="table__item-title">Мария Захарова</h4>
-        <blockquote class="table__item-text" cite="https://www.svoboda.org/a/30585840.html">В&nbsp;принципе зарубежная поездка&nbsp;&mdash; это серьезнейшее, ответственнейшее и&nbsp;очень рискованное предприятие.</blockquote>
+        <blockquote class="table__item-text" cite="https://www.svoboda.org/a/30585840.html">В&nbsp;принципе зарубежная
+          поездка&nbsp;&mdash; это серьезнейшее, ответственнейшее и&nbsp;очень рискованное предприятие.</blockquote>
       </li>
     </ul>
   </section>
@@ -100,4 +162,5 @@
   </footer>
 
 </body>
+
 </html>
