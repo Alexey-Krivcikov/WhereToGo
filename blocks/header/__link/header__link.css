@@ -1,20 +1,9 @@
 .header__link {
-    margin: 0 50px 0 0;
     text-decoration: none;
     line-height: 40px;
     font-weight: 700;
     font-size: 14px;
     color: black;
-}
-
-.header__link:nth-last-of-type(1) {
-    margin-right: 0;
-}
-
-@media screen and (max-width: 597px) {
-    .header__link {
-        margin-right: 30px;
-    }
 }
 
 @media screen and (max-width: 535px) {

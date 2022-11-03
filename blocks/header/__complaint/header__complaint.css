@@ -1,5 +1,5 @@
 .header__complaint {
-    margin: 0;
+    margin-left: auto;
     text-decoration: none;
     line-height: 40px;
     font-weight: 700;
@@ -10,5 +10,6 @@
 @media screen and (max-width: 535px) {
     .header__complaint {
         font-size: 20px;
+        margin-left: 0;
     }
 }
