@@ -4,13 +4,13 @@
   gap: 30px;
   align-items: center;
   box-sizing: border-box;
-  padding: 90px 70px 0;
+  padding: 100px 70px 50px;
 }
 
 @media screen and (max-width: 815px) {
   .intro {
     grid-template-columns: 1fr;
-    padding: 60px 40px 0;
+    padding: 25px 40px 0;
   }
 }
 
