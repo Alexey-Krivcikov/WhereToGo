@@ -1,0 +1,28 @@
+.burger__btn {
+  display: none;
+}
+
+@media screen and (max-width: 535px) {
+  .burger__btn {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+    top: 20px;
+    right: 30px;
+  }
+
+  .burger__btn::before {
+    content: '\2630';
+  }
+
+  .burger__btn:hover {
+    text-shadow: 1px 1px 2px black;
+  }
+  .burger__btn:active {
+    color: #fecda7;
+  }
+}

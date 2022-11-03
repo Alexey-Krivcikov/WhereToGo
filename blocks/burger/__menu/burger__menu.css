@@ -1,0 +1,15 @@
+.burger__menu {
+  display: none;
+}
+
+@media screen and (max-width: 535px) {
+  .burger__menu:checked+.burger__btn+.header__menu {
+    display: flex;
+    animation: show .5s ease;
+  }
+
+  .burger__menu:checked+.burger__btn::before {
+    content: '\2716';
+  }
+
+}
