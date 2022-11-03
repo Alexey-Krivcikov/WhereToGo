@@ -28,25 +28,31 @@
         top: 20px;
         right: 30px;
       }
+
       .burger__btn::before {
         content: '\2630';
       }
+
       .header__menu {
         display: none;
       }
-      .burger__menu:checked + .burger__btn + .header__menu{
+
+      .burger__menu:checked+.burger__btn+.header__menu {
         display: flex;
         animation: show .5s ease;
       }
-      .burger__menu:checked + .burger__btn::before {
+
+      .burger__menu:checked+.burger__btn::before {
         content: '\2716';
       }
 
     }
+
     @keyframes show {
       0% {
         opacity: 0;
       }
+
       100% {
         opacity: 1;
       }
@@ -64,10 +70,20 @@
       </label>
 
       <nav class="header__menu">
-          <a href="#" class="header__link">Мечты</a>
-          <a href="#" class="header__link">Ожидания</a>
-          <a href="#" class="header__link">Реальность</a>
-          <a href="#" class="header__complaint">Пожаловаться</a>
+        <ul class="header__list">
+          <li class="header__list-item">
+            <a href="#" class="header__link">Мечты</a>
+          </li>
+          <li class="header__list-item">
+            <a href="#" class="header__link">Ожидания</a>
+          </li>
+          <li class="header__list-item">
+            <a href="#" class="header__link">Реальность</a>
+          </li>
+          <li class="header__list-item header__list-item_place_last-item">
+            <a href="#" class="header__complaint">Пожаловаться</a>
+          </li>
+        </ul>
       </nav>
     </div>
   </header>

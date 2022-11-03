@@ -1,0 +1,14 @@
+.header__list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 50px;
+}
+
+@media screen and (max-width: 535px) {
+  .header__list {
+      flex-direction: column;
+      gap: 0px;
+  }
+}
