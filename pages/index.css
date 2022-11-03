@@ -1,6 +1,7 @@
 @import url('../vendor/normalize.css');
 @import url('../blocks/page/page.css');
 @import url('../vendor/fonts/fonts.css');
+@import url('../blocks/links/links.css');
 
 /* ! block animation */
 @import url('../blocks/show/show.css');
@@ -11,11 +12,7 @@
 @import url('../blocks/window/__heading/window__heading.css');
 @import url('../blocks/window/__form/window__form.css');
 @import url('../blocks/window/__container/form__container.css');
-@import url('../blocks/window/__email/form__email.css');
-@import url('../blocks/window/__name/form__name.css');
-@import url('../blocks/window/__email-tag/form__email-tag.css');
 @import url('../blocks/window/__name-tag/form__name-tag.css');
-@import url('../blocks/window/__text-tag/form__text-tag.css');
 @import url('../blocks/window/__textarea/form__textarea.css');
 @import url('../blocks/window/__reset/form__reset.css');
 @import url('../blocks/window/__submit/form__submit.css');
