@@ -4,3 +4,9 @@
     line-height: 40px;
     font-weight: 700;
 }
+
+@media screen and (max-width: 450px) {
+  .footer__year {
+    font-size: 18px;
+  }
+}
