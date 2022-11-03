@@ -14,9 +14,22 @@
       <a href="#" class="header__link">Ожидания</a>
       <a href="#" class="header__link">Реальность</a>
     </nav>
-    <div class="window" id="test">пожаловаться!
+    <form class="window" id="test">
+      <h2 class="window__heading">Пожаловаться можно здесь!</h2>
+        <div class="form__container">
+          <fieldset class="window__form">
+            <a class="form__name-tag">Введите ваше имя</a>
+            <input type="text" class="form__name form-position">
+            <a class="form__name-tag">Введите ваш email</a>
+            <input type="email" class="form__email form-position">
+            <a class="form__name-tag">Опишите жалобу</a>
+            <textarea type="text" class="form__textarea form-position"></textarea>
+            <input type="reset" class="form__reset form-position">
+            <input type="submit" class="form__submit form-position">
+          </fieldset>
+        </div>
       <a href="#" class="window__close">close that</a>
-    </div>
+    </form>
     <a href="#test" class="header__complaint">Пожаловаться</a>
   </header>
 
