@@ -3,7 +3,7 @@
   height: 380px;
   object-fit: cover;
   justify-self: center;
-  transition: all 1s ease;
+  transition: scale 1s ease, border-radius 1s ease;
 }
 
 .intro__img:hover {
