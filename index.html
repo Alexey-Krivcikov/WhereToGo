@@ -29,25 +29,25 @@
             <a href="#reality" class="header__link">Реальность</a>
           </li>
           <li class="header__list-item header__list-item_place_last-item">
-            <form class="window show" id="test">
-              <h5 class="window__heading">Пожаловаться можно здесь!</h5>
+            <form class="form show" id="test">
+              <h5 class="form__heading">Пожаловаться можно здесь!</h5>
               <div class="form__container">
-                <fieldset class="window__form">
+                <fieldset class="form__user-complaint">
                   <label for="firstname" class="form__name-tag">Введите ваше имя</label>
-                  <input type="text" name="firstname" id="firstname" placeholder="Иван" class="form__name form-position">
+                  <input type="text" name="firstname" id="firstname" placeholder="Иван" class="form__label">
                   <label for="email-address" class="form__name-tag">Введите ваш email</label>
                   <input type="email" name="email-address" id="email-address" placeholder="ivan@yandex.ru"
-                    class="form__email form-position">
+                    class="form__label">
                   <label for="problem" class="form__name-tag">Опишите жалобу</label>
                   <textarea name="problem" id="problem" placeholder="Мне не нравится шрифт"
-                    class="form__textarea form-position"></textarea>
+                    class="form__textarea form__label"></textarea>
                 </fieldset>
                 <fieldset class="form__handless">
-                  <input type="reset" class="form__reset">
-                  <input type="submit" class="form__submit">
+                  <input type="reset" value="Сбросить" class="form__reset">
+                  <input type="submit" value="Отправить" class="form__submit">
                 </fieldset>
               </div>
-              <a href="#" class="window__close">Закрыть</a>
+              <a href="#" class="form__close">Закрыть</a>
             </form>
             <a href="#test" class="header__complaint">Пожаловаться</a>
           </li>

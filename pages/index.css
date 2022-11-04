@@ -8,20 +8,18 @@
 @import url('../blocks/show/show.css');
 @import url('../blocks/smooth/smooth.css');
 
-/* ! window */
-@import url('../blocks/window/window.css');
-@import url('../blocks/window/__close/window__close.css');
-@import url('../blocks/window/__heading/window__heading.css');
-@import url('../blocks/window/__form/window__form.css');
-@import url('../blocks/window/__container/form__container.css');
-@import url('../blocks/window/__name-tag/form__name-tag.css');
-@import url('../blocks/window/__textarea/form__textarea.css');
-@import url('../blocks/window/__reset/form__reset.css');
-@import url('../blocks/window/__submit/form__submit.css');
-@import url('../blocks/window/__handless/form__handless.css');
-
-/* ! block form pos */
-@import url('../blocks/form-position/form-position.css');
+/* ! form */
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__close/form__close.css');
+@import url('../blocks/form/__heading/form__heading.css');
+@import url('../blocks/form/__user-complaint/form__user-complaint.css');
+@import url('../blocks/form/__container/form__container.css');
+@import url('../blocks/form/__name-tag/form__name-tag.css');
+@import url('../blocks/form/__textarea/form__textarea.css');
+@import url('../blocks/form/__reset/form__reset.css');
+@import url('../blocks/form/__submit/form__submit.css');
+@import url('../blocks/form/__handless/form__handless.css');
+@import url('../blocks/form/__label/form__label.css');
 
 /* ! block header */
 @import url('../blocks/header/header.css');

@@ -1,4 +1,4 @@
-.window {
+.form {
   box-sizing: border-box;
   display: none;
   max-width: 500px;
@@ -29,7 +29,7 @@
 }
 
 @media screen and (max-width: 500px) {
-  .window {
+  .form {
     max-width: 400px;
     max-height: 500px;
   }

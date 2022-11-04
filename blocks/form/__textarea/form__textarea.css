@@ -1,0 +1,11 @@
+.form__textarea {
+  margin: 0 auto;
+  max-width: 390px;
+  max-height: 100px;
+}
+
+@media screen and (max-width: 500px) {
+  .form__textarea {
+    max-width: 266px;
+  }
+}
