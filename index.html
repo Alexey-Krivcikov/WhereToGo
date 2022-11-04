@@ -35,12 +35,12 @@
               <div class="form__container">
                 <fieldset class="window__form">
                   <label for="firstname" class="form__name-tag">Введите ваше имя</label>
-                  <input type="text" name="firstname" placeholder="Иван" class="form__name form-position">
+                  <input type="text" name="firstname" id="firstname" placeholder="Иван" class="form__name form-position">
                   <label for="email-address" class="form__name-tag">Введите ваш email</label>
-                  <input type="email" name="email-address" placeholder="ivan@yandex.ru"
+                  <input type="email" name="email-address" id="email-address" placeholder="ivan@yandex.ru"
                     class="form__email form-position">
                   <label for="problem" class="form__name-tag">Опишите жалобу</label>
-                  <textarea type="text" name="problem" placeholder="Мне не нравится шрифт"
+                  <textarea name="problem" id="problem" placeholder="Мне не нравится шрифт"
                     class="form__textarea form-position"></textarea>
                 </fieldset>
                 <fieldset class="form__handless">
@@ -66,7 +66,7 @@
       <img class="intro__img" src="./images/intro-image.jpeg" alt="вид на закат с высоты полета самолета">
     </section>
 
-    <section class="places">
+    <section class="places" aria-label="Места куда можно поехать">
       <article id="expectations" class="place">
         <img src="./images/places-forest.jpeg" class="place__photo" alt="лес">
         <div class="place__text">
