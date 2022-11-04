@@ -3,11 +3,20 @@
   height: 380px;
   object-fit: cover;
   justify-self: center;
+  transition: all 1s ease;
+}
+
+.intro__img:hover {
+  scale: 1.1;
+  border-radius: 30%;
 }
 
 @media screen and (max-width: 500px) {
   .intro__img {
     height: 280px;
     width: 100%;
+  }
+  .intro__img:hover {
+    scale: 1.05;
   }
 }
