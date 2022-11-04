@@ -5,6 +5,7 @@
 
 /* ! block animation */
 @import url('../blocks/show/show.css');
+@import url('../blocks/smooth/smooth.css');
 
 /* window */
 @import url('../blocks/window/window.css');
