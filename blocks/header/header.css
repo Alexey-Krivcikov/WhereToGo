@@ -13,6 +13,7 @@
 
 @media screen and (max-width: 535px) {
   .header {
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: start;
