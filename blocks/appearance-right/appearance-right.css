@@ -1,0 +1,14 @@
+.appearance-right {
+  transform: translateX(150%);
+  animation: appearance-right 1s forwards;
+}
+
+@keyframes appearance-right {
+  0% {
+    transform: translateX(150%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
