@@ -1,3 +1,7 @@
+.show {
+  animation: show 1s ease;
+}
+
 @keyframes show {
   0% {
     opacity: 0;

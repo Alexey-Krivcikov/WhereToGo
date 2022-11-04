@@ -1,16 +1,16 @@
 .place {
-    box-sizing: border-box;
-    margin: 0 auto;
-    max-width: 1280px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    background-color: #f2f2f2;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #f2f2f2;
 }
 
 @media screen and (max-width: 901px) {
-    .place {
-        max-width: 1024px;
-        grid-template-columns: 1fr;
-        grid-template-rows: [text-start] 1fr [text-end];
-    }
+  .place {
+    max-width: 1024px;
+    grid-template-columns: 1fr;
+    grid-template-rows: [text-start] 1fr [text-end];
+  }
 }
