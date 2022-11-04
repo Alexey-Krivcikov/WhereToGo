@@ -6,8 +6,6 @@
 /* ! block animation */
 @import url('../blocks/show/show.css');
 @import url('../blocks/smooth/smooth.css');
-@import url('../blocks/appearance-left/appearance-left.css');
-@import url('../blocks/appearance-right/appearance-right.css');
 
 /* ! window */
 @import url('../blocks/window/window.css');

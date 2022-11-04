@@ -7,11 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="./images/favicon.png">
   <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./vendor/animate.css">
   <title>Куда я поеду</title>
 </head>
 
 <body class="page">
-  <header class="header appearance-right">
+  <header class="header wow fadeIn">
 
     <div class="burger">
       <input class="burger__menu show" type="checkbox" id="check-menu">
@@ -58,7 +59,7 @@
   </header>
   <main>
 
-    <section class="intro appearance-left" id="dreams" >
+    <section class="intro wow fadeInUp" id="dreams" >
       <div class="text">
         <h1 class="text__title">Куда я&nbsp;поеду</h1>
         <p class="text__subtitle">Куда я&nbsp;поеду сразу, как можно будет куда-то поехать</p>
@@ -67,7 +68,7 @@
     </section>
 
     <section class="places" aria-label="Места куда можно поехать">
-      <article id="expectations" class="place">
+      <article class="place wow fadeInUp" id="expectations">
         <img src="./images/places-forest.jpeg" class="place__photo" alt="лес">
         <div class="place__text">
           <h2 class="place__heading">Поеду в&nbsp;лес</h2>
@@ -80,7 +81,7 @@
           </div>
         </div>
       </article>
-      <article class="place">
+      <article class="place place wow fadeInUp">
         <div class="place__text">
           <h2 class="place__heading">Поеду в&nbsp;горы</h2>
           <div class="place__paragraphs">
@@ -95,7 +96,7 @@
         </div>
         <img src="./images/places-mountains.jpeg" class="place__photo" alt="горы">
       </article>
-      <article class="place">
+      <article class="place place wow fadeInUp">
         <img src="./images/places-black-sea.jpeg" class="place__photo" alt="черное море">
         <div class="place__text">
           <h2 class="place__heading">Поеду на&nbsp;Чёрное море</h2>
@@ -114,7 +115,7 @@
       </article>
     </section>
 
-    <section id="reality" class="stories">
+    <section class="stories wow fadeInUp" id="reality" >
       <div class="text text_place_stories">
         <h3 class="text__title">Люди</h3>
         <p class="text__subtitle">Что говорят и&nbsp;говорили люди о&nbsp;путешествиях</p>
@@ -145,12 +146,16 @@
         </li>
       </ul>
     </section>
-  </main>
+  </main >
 
-  <footer class="footer">
+  <footer class="footer wow fadeInUp">
     <p class="footer__year">&copy; 2022</p>
   </footer>
 
+  <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 
 </html>
