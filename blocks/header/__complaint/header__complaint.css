@@ -1,9 +1,22 @@
 .header__complaint {
-    text-decoration: none;
-    line-height: 40px;
-    font-weight: 700;
-    font-size: 14px;
-    color: black;
+  text-decoration: none;
+  line-height: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #010101;
+  transition: color 0.3s ease;
+}
+
+.header__complaint:visited {
+  color: #315a6e;
+}
+
+.header__complaint:hover {
+  color: #fecda7;
+}
+
+.header__complaint:active {
+  color: #ff6f00;
 }
 
 @media screen and (max-width: 535px) {

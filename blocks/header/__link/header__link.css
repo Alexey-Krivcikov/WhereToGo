@@ -1,9 +1,22 @@
 .header__link {
-    text-decoration: none;
-    line-height: 40px;
-    font-weight: 700;
-    font-size: 14px;
-    color: black;
+  text-decoration: none;
+  line-height: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #010101;
+  transition: color 0.3s ease;
+}
+
+.header__link:visited {
+  color: #315a6e;
+}
+
+.header__link:hover {
+  color: #fecda7;
+}
+
+.header__link:active {
+  color: #ff6f00;
 }
 
 @media screen and (max-width: 535px) {
