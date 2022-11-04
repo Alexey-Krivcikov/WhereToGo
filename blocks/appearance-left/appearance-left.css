@@ -1,0 +1,4 @@
+@keyframes appearance-left {
+  0% {transform: translateX(-150%);}
+  100% {transform: translateY(0);}
+}
