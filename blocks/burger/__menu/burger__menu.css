@@ -4,11 +4,14 @@
 
 @media screen and (max-width: 535px) {
   .burger__menu:checked+.burger__btn+.header__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    animation: show 1s ease;
+    -webkit-animation: show 1s ease;
+            animation: show 1s ease;
   }
 
-  .burger__menu:checked+.burger__btn::before {
+  .burger__menu:checked + .burger__btn::before {
     content: '\2716';
   }
 

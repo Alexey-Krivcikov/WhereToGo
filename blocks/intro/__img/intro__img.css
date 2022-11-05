@@ -1,8 +1,12 @@
 .intro__img {
   width: 380px;
   height: 380px;
-  object-fit: cover;
-  justify-self: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-transition: scale 1s, border-radius 1s;
+  -o-transition: scale 1s, border-radius 1s;
   transition: scale 1s, border-radius 1s;
 }
 

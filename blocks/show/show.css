@@ -1,5 +1,16 @@
 .show {
-  animation: show 1s ease;
+  -webkit-animation: show 1s ease;
+          animation: show 1s ease;
+}
+
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes show {

@@ -8,6 +8,8 @@
   opacity: 1;
   color: white;
   background-color: rgb(162, 0, 0);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
   border-radius: 5px;
 }
