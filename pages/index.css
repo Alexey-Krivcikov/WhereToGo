@@ -8,7 +8,12 @@
 @import url('../blocks/show/show.css');
 @import url('../blocks/smooth/smooth.css');
 
-/* ! form */
+/* ! block form */
+@import url('../blocks/preloader/preloader.css');
+@import url('../blocks/preloader/__item/preloader__item.css');
+@import url('../blocks/preloader/__row/preloader__row.css');
+
+/* ! block form */
 @import url('../blocks/form/form.css');
 @import url('../blocks/form/__close/form__close.css');
 @import url('../blocks/form/__heading/form__heading.css');

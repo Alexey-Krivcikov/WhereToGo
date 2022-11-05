@@ -11,10 +11,20 @@
 
   <link rel="icon" href="./images/favicon.png">
   <link rel="stylesheet" href="./pages/index.css">
+
   <title>Куда я поеду</title>
+
 </head>
 
 <body class="page">
+
+  <div class="preloader">
+    <div class="preloader__row">
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+    </div>
+  </div>
+
   <header class="header wow fadeInDown">
 
     <div class="burger">
@@ -118,10 +128,12 @@
     </section>
 
     <section class="stories wow fadeInUp" id="reality" >
+
       <div class="text text_place_stories">
         <h3 class="text__title">Люди</h3>
         <p class="text__subtitle">Что говорят и&nbsp;говорили люди о&nbsp;путешествиях</p>
       </div>
+
       <ul class="table">
         <li class="table__item">
           <h4 class="table__item-title">Иван Бунин</h4>
@@ -154,10 +166,9 @@
     <p class="footer__year">&copy; 2022</p>
   </footer>
 
+  <script src="./js/preloader.js"></script>
   <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
+  <script src="./js/main.js"></script>
 
 </body>
 </html>
