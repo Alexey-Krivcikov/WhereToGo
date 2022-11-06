@@ -21,6 +21,7 @@
   - Media Queries;
 - Методология БЭМ;
 - Файловая структура Nested БЭМ;
+- JavaScript;
 
 ## Изображение:
 <details><summary><b>Развернуть</b></summary>
