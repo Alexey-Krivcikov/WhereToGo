@@ -4,7 +4,7 @@ let footer = document.querySelector('.footer');
 
 function addAuthors () {
     footer.insertAdjacentHTML('beforeend', `
-<p class="footer__authors show">Бухбиндер Никита х Алексей Кривчиков</в>
+<p class="footer__authors show">Бухбиндер Никита <b>х</b> Алексей Кривчиков</в>
 `);
 }
 
