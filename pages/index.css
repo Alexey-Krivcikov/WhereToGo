@@ -73,3 +73,4 @@
 /* ! block footer */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__year/footer__year.css');
+@import url('../blocks/footer/__authors/footer__authors.css');

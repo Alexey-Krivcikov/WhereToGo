@@ -1,0 +1,10 @@
+.footer__authors {
+  font-size: 20px;
+  margin: 10px 0 0;
+}
+
+@media screen and (max-width: 535px) {
+  .footer__authors {
+    font-size: 14px;
+}
+}
