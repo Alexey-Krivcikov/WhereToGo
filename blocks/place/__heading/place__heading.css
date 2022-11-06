@@ -6,7 +6,7 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 1019px) {
+@media screen and (max-width: 1033px) {
   .place__heading {
     font-size: 28px;
   }

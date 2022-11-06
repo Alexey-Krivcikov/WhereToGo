@@ -18,12 +18,19 @@
 @media screen and (max-width: 901px) {
   .place__photo {
     max-width: none;
-    height: 600px;
+    padding: 0 70px ;
   }
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 815px) {
+  .place__photo {
+    padding: 0 40px ;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .place__photo {
     height: 300px;
+    padding: 0;
   }
 }
