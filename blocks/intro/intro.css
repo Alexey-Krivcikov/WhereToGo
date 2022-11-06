@@ -11,20 +11,20 @@
           align-items: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 100px 70px 50px;
+  padding: 100px 70px 105px;
 }
 
 @media screen and (max-width: 815px) {
   .intro {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-    padding: 25px 40px 0;
+    padding: 25px 40px 70px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .intro {
-    padding: 0 20px 0;
+    padding: 0 20px 39px;
     gap: 50px;
   }
 }
