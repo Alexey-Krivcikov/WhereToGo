@@ -35,4 +35,4 @@
 - Сделать анимации самостоятельно, а не с помощью готовых библиотек
 
 ## Ссылка на сайт:
-https://alexey-krivcikov.github.io/competition/
+https://alexey-krivcikov.github.io/WhereToGo/
